@@ -1,5 +1,7 @@
 # US private well statistics by county, 2026
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24377826.svg)](https://doi.org/10.5281/zenodo.24377826)
+
 County-level statistics on household (domestic) wells in the United States, plus county-level groundwater quality results. Published by PrivateWell (https://privatewell.org), an independent US private-well data site.
 
 - Version: 2026.11 (updated 2026-11-19)
@@ -124,7 +126,7 @@ Creative Commons Attribution 4.0 International (CC BY 4.0). You may share and ad
 
 ## How to cite
 
-Rohit S (2026). *US private well statistics by county, 2026* (version 2026.11) [Data set]. PrivateWell. https://privatewell.org/statistics/
+Rohit S (2026). *US private well statistics by county, 2026* (version 2026.11) [Data set]. PrivateWell. https://doi.org/10.5281/zenodo.24377826
 
 BibTeX:
 
@@ -135,12 +137,13 @@ BibTeX:
   year      = {2026},
   version   = {2026.11},
   publisher = {PrivateWell},
-  url       = {https://privatewell.org/statistics/},
+  doi       = {10.5281/zenodo.24377826},
+  url       = {https://doi.org/10.5281/zenodo.24377826},
   license   = {CC-BY-4.0}
 }
 ```
 
-If a DOI has been issued (for example by Zenodo), cite that DOI instead and add it to `CITATION.cff`.
+The DOI above always points to the newest version. Version 2026.11 has its own DOI: https://doi.org/10.5281/zenodo.24377827
 
 ## Contact
 

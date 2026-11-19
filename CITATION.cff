@@ -23,7 +23,11 @@ authors:
   - family-names: "S"
     given-names: "Rohit"
     affiliation: "PrivateWell"
-# Add after Zenodo issues one:
-# identifiers:
-#   - type: doi
-#     value: "10.5281/zenodo.XXXXXXX"
+doi: "10.5281/zenodo.24377826"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24377826"
+    description: "Concept DOI, always the latest version"
+  - type: doi
+    value: "10.5281/zenodo.24377827"
+    description: "Version 2026.11"
