@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 type: dataset
 title: "US Private Well Statistics by County, 2026"
-version: "2026.11"
-date-released: 2026-11-19
+version: "2026.11.1"
+date-released: 2026-11-20
 license: CC-BY-4.0
 url: "https://privatewell.org/statistics/"
 repository-code: "https://github.com/privatewell/us-private-wells-by-county"

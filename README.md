@@ -4,7 +4,7 @@
 
 County-level statistics on household (domestic) wells in the United States, plus county-level groundwater quality results. Published by PrivateWell (https://privatewell.org), an independent US private-well data site.
 
-- Version: 2026.11 (updated 2026-11-19)
+- Version: 2026.11.1 (updated 2026-11-20)
 - Author: Rohit S, Editor and data lead, PrivateWell
 - Licence: CC BY 4.0
 - Browse the county pages: https://privatewell.org/counties/
@@ -126,7 +126,7 @@ Creative Commons Attribution 4.0 International (CC BY 4.0). You may share and ad
 
 ## How to cite
 
-Rohit S (2026). *US private well statistics by county, 2026* (version 2026.11) [Data set]. PrivateWell. https://doi.org/10.5281/zenodo.24377826
+Rohit S (2026). *US private well statistics by county, 2026* (version 2026.11.1) [Data set]. PrivateWell. https://doi.org/10.5281/zenodo.24377826
 
 BibTeX:
 
@@ -135,7 +135,7 @@ BibTeX:
   author    = {S, Rohit},
   title     = {US private well statistics by county, 2026},
   year      = {2026},
-  version   = {2026.11},
+  version   = {2026.11.1},
   publisher = {PrivateWell},
   doi       = {10.5281/zenodo.24377826},
   url       = {https://doi.org/10.5281/zenodo.24377826},
@@ -143,7 +143,12 @@ BibTeX:
 }
 ```
 
-The DOI above always points to the newest version. Version 2026.11 has its own DOI: https://doi.org/10.5281/zenodo.24377827
+The DOI above always points to the newest version. Each version also has its own DOI on Zenodo (2026.11: https://doi.org/10.5281/zenodo.24377827).
+
+## Changes
+
+- 2026.11.1 (2026-11-20): corrected `median_depth_pre1990_ft` and `median_depth_2010on_ft`. For some states loaded from summary files, these medians were filled even when the period had fewer than 30 wells. They are now blank unless the period has 30 or more wells, as the method says. 589 county rows changed; no other column or file changed. The headline comparison (905 of 1,083 counties, 84%) already used the 30-well rule and is unchanged.
+- 2026.11 (2026-11-19): first release.
 
 ## Contact
 

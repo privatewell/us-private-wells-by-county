@@ -11,7 +11,7 @@ You are free to share (copy and redistribute in any medium or format) and adapt 
 
 Use this line, or something close to it:
 
-> Data: Rohit S, PrivateWell, "US private well statistics by county, 2026" (version 2026.11), https://privatewell.org/statistics/, licensed under CC BY 4.0.
+> Data: Rohit S, PrivateWell, "US private well statistics by county, 2026" (version 2026.11.1), https://privatewell.org/statistics/, licensed under CC BY 4.0.
 
 ## Underlying records
 
