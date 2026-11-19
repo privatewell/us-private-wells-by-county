@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "US Private Well Statistics by County, 2026"
+version: "2026.11"
+date-released: 2026-11-19
+license: CC-BY-4.0
+url: "https://privatewell.org/statistics/"
+repository-code: "https://github.com/privatewell/us-private-wells-by-county"
+abstract: "County statistics on 6,820,947 household well records from official state databases in 39 states: depth, water level, yield, depth bands and a USGS arsenic estimate, plus county groundwater quality summaries from the Water Quality Portal."
+keywords:
+  - private wells
+  - domestic wells
+  - groundwater
+  - well depth
+  - drinking water
+  - arsenic
+  - nitrate
+  - United States
+  - county statistics
+  - open data
+authors:
+  - family-names: "S"
+    given-names: "Rohit"
+    affiliation: "PrivateWell"
+# Add after Zenodo issues one:
+# identifiers:
+#   - type: doi
+#     value: "10.5281/zenodo.XXXXXXX"
