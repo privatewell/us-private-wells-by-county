@@ -1,0 +1,60 @@
+{
+  "title": "US private well statistics by county, 2026",
+  "upload_type": "dataset",
+  "description": "<p>County statistics on household (domestic) wells in the United States, with county groundwater quality summaries.</p><p>The well table covers 6,820,947 household well records taken from official state databases in 39 states. 2,270 counties have at least 30 records and 1,830 counties have 200 or more. Each county row gives median depth, depth percentiles, median static water level and yield (where the state records carry them), median depth of wells completed before 1990 and since 2010, the share of wells in four depth bands, and a USGS modelled estimate of people on domestic wells with arsenic above 10 ug/L.</p><p>The water quality table summarises Water Quality Portal results for groundwater wells since 1990 (97,424 wells and 1,055,679 sample results): median, 90th percentile and the share of wells over an EPA reference level for 11 characteristics, including arsenic, nitrate, uranium, radon, manganese, PFOA and PFOS.</p><p>Files: us_private_wells_by_county_2026.csv (3,137 rows), us_county_groundwater_quality_2026.csv (7,853 rows), us_private_wells_by_county_decade_2026.csv (8,415 rows, 1,644 counties), sources.csv (40 rows), README.md, CITATION.cff, LICENSE.md.</p><p>Method: household wells are filtered with each state's own use field; county figures are medians; depth statistics need 30 or more records; each well counts once in the quality table, using its most recent result; nitrate medians over 30 mg/L are held back.</p><p>Caveats: state coverage differs, and Indiana's domestic filter is inferred because the state has no use field. The Water Quality Portal is not a random sample of private wells, and USGS data after January 2024 is missing from the service used. The arsenic population figures are a model. In 905 of 1,083 counties (84%) with 30 or more wells in both periods, wells completed since 2010 have a deeper median than wells completed before 1990, but deeper new wells do not prove water tables fell, because drilling practice, rules and well types changed too.</p><p>Browse the county pages at https://privatewell.org/counties/. Method: https://privatewell.org/methodology/</p>",
+  "creators": [
+    {
+      "name": "S, Rohit",
+      "affiliation": "PrivateWell"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "version": "2026.11.1",
+  "keywords": [
+    "private wells",
+    "domestic wells",
+    "groundwater",
+    "well depth",
+    "drinking water",
+    "water quality",
+    "arsenic",
+    "nitrate",
+    "county statistics",
+    "United States"
+  ],
+  "notes": "Drafted and maintained by Rohit S, Editor and data lead, PrivateWell. Updated 2026-11-20. Version 2026.11.1 corrects the pre-1990 and 2010-on median columns: they are now blank unless the period has 30 or more wells (589 county rows changed). Questions or corrections: info@privatewell.org. County statistics describe groups of wells, not any single well. Test your own water.",
+  "related_identifiers": [
+    {
+      "relation": "isDescribedBy",
+      "identifier": "https://privatewell.org/statistics/",
+      "scheme": "url"
+    },
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "https://privatewell.org/methodology/",
+      "scheme": "url"
+    },
+    {
+      "relation": "isSupplementedBy",
+      "identifier": "https://privatewell.org/counties/",
+      "scheme": "url"
+    },
+    {
+      "relation": "isDerivedFrom",
+      "identifier": "https://privatewell.org/sources/",
+      "scheme": "url"
+    },
+    {
+      "relation": "isDerivedFrom",
+      "identifier": "10.5066/F7CN724V",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isDerivedFrom",
+      "identifier": "https://www.waterqualitydata.us/",
+      "scheme": "url"
+    }
+  ]
+}
