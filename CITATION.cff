@@ -31,3 +31,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.24377827"
     description: "Version 2026.11"
+  - type: doi
+    value: "10.5281/zenodo.24379214"
+    description: "Version 2026.11.1"
+  - type: doi
+    value: "10.6084/m9.figshare.35073796.v1"
+    description: "Same dataset on Figshare (2026.11.1)"
